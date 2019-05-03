@@ -9,6 +9,7 @@ class Song
   end
 
   def artist_name
+    puts self.artist.name
     self.artist.name
   end
   
