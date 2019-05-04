@@ -27,7 +27,7 @@ class Author
   def self.post_count
     post_count = 0
     @@authors.each do |author|
-      song_count += author.posts.count
+      post_count += author.posts.count
     end
     post_count
   end
