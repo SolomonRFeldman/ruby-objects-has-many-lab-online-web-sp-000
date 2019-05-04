@@ -19,7 +19,7 @@ class Author
   end
   
   def add_post_by_title(post_title)
-    post = Post.new(song_name)
+    post = Post.new(post_title)
     post.artist = self
     @songs << post
   end
